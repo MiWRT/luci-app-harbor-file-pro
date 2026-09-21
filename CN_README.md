@@ -105,7 +105,8 @@ Harbor File Pro 完整保留了原版 Harbor File 的所有核心功能，让你
 ```bash
 # 使用 curl
 curl -fsSL "https://gitlab.com/whzhni/tailscale/-/raw/main/Auto_Install_Script.sh" | sh -s luci-app-harbor-file-pro
-
+```
+```bash
 # 使用 wget
 wget -q -O - "https://gitlab.com/whzhni/tailscale/-/raw/main/Auto_Install_Script.sh" | sh -s luci-app-harbor-file-pro
 ```
