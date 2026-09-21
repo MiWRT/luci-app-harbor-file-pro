@@ -106,7 +106,9 @@ Use curl or wget to run the following command:
 ```bash
 # Using curl
 curl -fsSL "https://gitlab.com/whzhni/tailscale/-/raw/main/Auto_Install_Script.sh" | sh -s luci-app-harbor-file-pro
+```
 
+```bash
 # Using wget
 wget -q -O - "https://gitlab.com/whzhni/tailscale/-/raw/main/Auto_Install_Script.sh" | sh -s luci-app-harbor-file-pro
 ```
